@@ -1,33 +1,37 @@
 body {
     width: 100%;
-    background-color:black;
-    color:white;
-    position:relative;
+    background-color: black;
+    color: white;
+    position: relative;
 }
-table{
-    display:block;
+
+table {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     min-height: 50vh;
     width: 80%;
 }
- th, td{
+
+th,
+td {
     overflow: hidden;
     text-align: center;
     border: 1px solid white;
     color: white;
-    
+
 }
+
 h1 {
     font-family: cardo;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 
 h3 {
     font-family: cardo;
-    color:white;
+    color: white;
 }
 
 p {
@@ -54,37 +58,41 @@ img {
     min-height: 100vh;
 }
 
-.sites{
+.sites {
     min-height: 60vh;
-    color:black;
+    color: black;
 }
 
-.sites p{
-    color:black;
+.sites p {
+    color: black;
 }
 
-.sites img{
+.sites img {
     min-width: 100%;
-    display:block;
+    display: block;
     margin-top: auto;
-    margin-bottom:auto;
-    margin-left:auto;
-    margin-right:auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 /*I got this code from https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4*/
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
 }
-  
-.movies{
+
+.movies {
     text-align: center;
     min-height: 20vh;
     list-style-position: inside;
 }
 
-.hobbies{
+.hobbies {
     text-align: center;
     min-height: 20vh;
     list-style-position: inside;
@@ -100,7 +108,7 @@ img {
     float: left;
 }
 
-.button{
+.button {
     border-left: 2%;
     border-right: 2%
 }
@@ -117,4 +125,3 @@ img {
     filter: blur(0);
     transform: translateX(0);
 }
-

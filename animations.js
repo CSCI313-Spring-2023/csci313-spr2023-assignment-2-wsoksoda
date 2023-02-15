@@ -12,8 +12,8 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-    target: '#navbar'
-  })
+//var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    //target: '#navbar'
+ // })
 
   
